@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "billing_issue",
+    "priority": "urgent",
+    "confidence": 0.9,
+    "reason": "Customer was charged twice for a single deposit.",
+    "suggested_reply": "Sorry for the issue. We'll review and reverse the extra charge.",
+    "route_to": "payments_queue"
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "account_access",
+    "priority": "urgent",
+    "confidence": 0.95,
+    "reason": "Customer can't log in after resetting password.",
+    "suggested_reply": "We'll help you regain access. Please try clearing app data.",
+    "route_to": "trust_and_access_queue"
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "product_how_to",
+    "priority": "normal",
+    "confidence": 0.8,
+    "reason": "Customer needs help exporting transaction history.",
+    "suggested_reply": "You can export history in the settings section.",
+    "route_to": "general_support_queue"
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "bug_report",
+    "priority": "high",
+    "confidence": 0.9,
+    "reason": "App crashes when opening portfolio tab.",
+    "suggested_reply": "Sorry for the issue. We'll investigate and fix the bug.",
+    "route_to": "technical_queue"
+  }
+]
